@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Register" method=post></form>
+<table>
+<tr><td>Username: </td><td><input type="text" name="username" id="username" placeholder="Enter your last name"></td></tr>
+<tr><td>Password: </td><td><input type="password" name="password" id="password" placeholder="Enter your password"></td></tr>
+<tr><td>Confirm Password: </td><td><input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm your password"></td></tr>
+<tr><td>Email: </td><td> <input type="email" name="email" id="name" placeholder="Enter your email-id"></td></tr>
+<tr><td>Contact Number: </td><td><input type="number" name="contact" id="name" placeholder="Enter your contact number"></td></tr>
+<tr><td></td><td> <input type="submit" value="register"></td></tr>
+</table>
+</body>
+</html>

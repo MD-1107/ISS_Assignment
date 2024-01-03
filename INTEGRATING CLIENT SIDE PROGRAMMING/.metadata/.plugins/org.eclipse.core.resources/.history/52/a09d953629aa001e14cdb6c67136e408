@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script defer src="script.js"></script>
+</head>
+<body>
+<form name="loginForm" action="Login" method="post">
+    Email: <input type="text" id="email" name="email"/> <br/> <br/>
+    Password: <input type="password" id="password" name="password"/> <br/> <br/>
+    <input type="submit" value="Login" />
+</form>
+
+<div class="newUser">
+ <button onclick="redirectToRegister()">Register</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Manushree Dubey 2024\INTEGRATING CLIENT SIDE PROGRAMMING\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4275671768.index
+2151127198.index
+1440169154.index
+1622730796.index
+2193926831.index
+2178213575.index
+2728784706.index
+3093433725.index
+627496312.index
+997000337.index

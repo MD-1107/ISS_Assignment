@@ -1,0 +1,11 @@
+package JDBC;
+
+import java.sql.*;
+
+public class JDBCMySQL 
+{
+	public static void main(String args[])
+	{
+		System.out.println("Hello");
+	}
+}

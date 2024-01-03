@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StudentInfo>
+      <Student>
+          <Name>Jason</Name>
+          <ID>123</ID>
+          <Dept>Comp</Dept>
+      </Student>
+      
+      <Student>
+          <Name>Henry</Name>
+          <ID>234</ID>
+          <Dept>Medical</Dept>
+      </Student>
+      
+      <Student>
+          <Name>Lisa</Name>
+          <ID>345</ID>
+          <Dept>Music</Dept>
+      </Student>
+    
+</StudentInfo>

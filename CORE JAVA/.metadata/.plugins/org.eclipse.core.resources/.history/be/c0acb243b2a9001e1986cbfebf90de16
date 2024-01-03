@@ -1,0 +1,33 @@
+package Exception;
+
+public class ExceptionExample 
+{
+	static void help()
+	{
+		try
+		{
+			throw new NullPointerException("unknown error");
+		}
+		
+		catch(NullPointerException e)
+		{
+			System.out.println("Caught the exception inside help() method");
+			throw e;
+		}
+	}
+	
+	public static void main(String args[])
+	{
+		try{
+			help();
+		}
+		
+		catch(Exception e)
+		{
+			System.out.println("Exception caught in the main method");
+			System.out.println(e);
+		}
+	}
+	
+
+}

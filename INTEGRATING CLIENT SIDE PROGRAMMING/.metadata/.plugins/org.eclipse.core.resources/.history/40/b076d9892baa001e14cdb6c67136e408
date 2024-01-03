@@ -1,0 +1,5 @@
+/**
+ * 
+ */function redirectToRegister() {
+    window.location.href = "Register";
+}

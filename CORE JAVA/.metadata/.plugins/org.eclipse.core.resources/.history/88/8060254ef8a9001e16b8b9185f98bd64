@@ -1,0 +1,30 @@
+package JSON;
+
+import org.json.simple.JSONObject;
+import org.json.simple.JSONArray;
+import java.io.*;
+import org.json.simple.parser.JSONParser;
+
+public class ReadJSON 
+{
+	JSONParser jsonParser=new JSONParser();
+	
+	try 
+	{
+		Object object=jsonParser.parse(new FileReader("JSONFile.json"));
+		
+		JSONObject jsonObject=(JSONObject)object;
+		
+		String fname=(String)jsonObject.get("firstname");
+		System.out.println("First name is: "+fname);
+		
+		String lname=(String)jsonObject.get("lastname");
+		System.out.println("Last name is: "+lname);
+	}
+	
+	catch(Exception e)
+	{
+		System.out.println(e);
+	}
+}
+}
